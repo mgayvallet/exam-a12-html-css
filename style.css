@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Inter;
-
+    gap: 56px;
 }
 
 header{
@@ -130,17 +130,17 @@ table {
 }
 
 caption {
-    color: var(--primary-color);
+    color: #333333CC; 
     opacity: 80%;
     margin: 2rem 0;
 }
 
 thead tr th {
-    color: var(--secondary-color);
+    color: #667085;
     font-size: 12px;
     font-weight: 500;
     line-height: 18px;
-    background-color: var(--thead-color);
+    background-color: #FCFCFD;
     padding: 8px 10px;
     text-align: start;
 }
@@ -148,16 +148,94 @@ thead tr th {
 tbody tr th {
     display: flex;
     text-align: start;
-    border-bottom: 1px solid var(--border-bottom-color);
+    border-bottom: 1px solid #EAECF0;
     padding: 10px 10px;
 }
 
 tbody tr td{
-    color: var(--secondary-color);
+    color: #667085;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    border-bottom: 1px solid var(--border-bottom-color);
+    border-bottom: 1px solid #EAECF0;
     padding: 8px 10px;
 }
 
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1A1A1A;
+    padding: 10%;
+    padding-top: 50px;
+    color: white;
+}
+
+.secFoot{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 200px;
+}
+
+.clHome,
+.clContact,
+.clFollow{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.deschome,
+.descContact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h3{
+    line-height: 24.2px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pFooter{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+}
+
+.whatsappNum,
+.pinDropDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.pinDropDiv{
+    width: 60%;
+}
+
+.divFollow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.hrFoot{
+    width: 100%;
+    margin-top: 49px;
+    border: 0.7px solid #474747;
+    margin-bottom: 18px;
+}
+
+.Copyright{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #D9DBE1;
+}
