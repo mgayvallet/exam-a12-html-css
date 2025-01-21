@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+
+}
+
+header{
+    margin-left: 153px;
+    margin-right: 161px;
+    box-shadow: 0px 3px 30px 0px #00000008;
+}
+
+header > .sectionInfo{
+    padding: 5px 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid ;
+    padding-bottom: 5px;
+}
+
+.van{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+header > .sectionInfo > div > p,
+header > .sectionInfo > .van > div > p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color: #333333B2;
+}
+
+.sectionHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px;
+    justify-content: space-between;
+}
+
+.sectionHeader > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 117px;
+}
+
+.sectionHeader > div > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    gap: 46px;
+}
+
+.sectionHeader > div > ul > li{
+    list-style: none;
+}
+
+.sectionHeader > div > ul > li > a{
+    text-decoration: none;
+    color: #333333;
+    
+}
+
+.sectionHeader > button{
+    padding: 11px 22px 10px 29px;
+    background-color: #4762FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.exploreTrucks{
+    display: flex;
+    flex-direction: row;
+}
+
+.exploreTrucks > div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #333333;
+    margin-top: 56px;
+}
+
+.exploreTrucks > div > p{
+    color: #333333CC;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+}
+
+.exploreTrucks > div > button{
+    padding: 11px 18px;
+    background-color: #4762FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.lastSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    color: var(--primary-color);
+    opacity: 80%;
+    margin: 2rem 0;
+}
+
+thead tr th {
+    color: var(--secondary-color);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    background-color: var(--thead-color);
+    padding: 8px 10px;
+    text-align: start;
+}
+
+tbody tr th {
+    display: flex;
+    text-align: start;
+    border-bottom: 1px solid var(--border-bottom-color);
+    padding: 10px 10px;
+}
+
+tbody tr td{
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    border-bottom: 1px solid var(--border-bottom-color);
+    padding: 8px 10px;
+}
+
